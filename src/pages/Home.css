@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(Red,white,pink);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.link{
+    color: red;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.studiv1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.stuh2{
+    font-size: 25px;
+    color: blue;
+}
+
+.stubtn1{
+    background-color: aqua;
+    color: red;
+    font-size: 20px;
+    border-radius: 55px;
+    height: 45px;
+    width: 250px;
+    margin: 1%;
+}
+.stutab{
+    background-color: white;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.name{
+    font-weight: lighter;
+    font-size: 25px;
+    border-bottom: 1px black solid  ;
+    border-right: 1px black solid;
+}
+
+.sub{
+    font-size: 25px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+}
+
+.adddiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input{
+    height: 35px;
+    width: 30%;
+    margin: 5%;
+    margin-left: 10%;
+    font-size: 18px;
+    border: 1px blue solid;
+}
+
+.addbut{
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.edit{
+    text-decoration: none;
+    font-size: 20px;
+}
